@@ -1,6 +1,6 @@
 # coding: utf8
 from django.conf.urls import url
-from api import views
+from homepage import views
 
 urlpatterns = [
     url(r'shops/nearby$', views.shops_nearby),

@@ -1,7 +1,7 @@
 # coding: utf8
 from django.shortcuts import render
 from json_response import JsonResponse
-from api.models import *
+from homepage.models import *
 import random
 from datetime import datetime
 # Create your views here.
